@@ -4,7 +4,7 @@
 
 Install Node
 
-git clone https://github.com/qualityshepherd/protractor_example
+git clone https://github.com/sujitkn/pi-e2e-testing
 
 # Setup & Run Protractor:
 
