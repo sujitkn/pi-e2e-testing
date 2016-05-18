@@ -9,8 +9,9 @@ git clone https://github.com/qualityshepherd/protractor_example
 # Setup & Run Protractor:
 
 
-First, let us install Protractor, run
-		npm i protractor --save-dev
+First, let us install Protractor, run 
+
+npm i protractor --save-dev
 
 We are going to set it up as local dev dependency. Once the setup is done, I recommend you checking out the installation at node_modules/protractor.
 
@@ -24,6 +25,7 @@ This folder consists of all the things you would need to run E2E tests. Do notic
 Update & Start the Selenium server 
 
 1-webdriver_manager update
+
 2-webdriver-manager start (default port 4444)
 
 if default port already in use or wanted start with different port--webdriver-manager start --seleniumPort 4443
@@ -58,9 +60,11 @@ Approach 1 : Referring to an existing Selenium server
 # How to run Protractor script using gulp runner:
 
 install gulp globally.
+
 npm install --global gulp
 
 Install gulp in our project locally (project devDependencies) by running following command.
+
 npm install --save-dev gulp
 
 
@@ -96,6 +100,7 @@ Now run the protractor script using only gulp command and do not need to run sel
 # Selenium & Protractor Vagrant configuration:
 
 #Prerequisite Software
+
 Vagrant - https://www.vagrantup.com/downloads.html
 
 VirtualBox - https://www.virtualbox.org/wiki/Downloads
@@ -112,7 +117,9 @@ $ vagrant up
 
 
 Run VM
+
 $ cd {YourNodeJSProject}/node_modules/vagrant-e2etesting-protractor
+
 $ vagrant up
 
 Stop VM
