@@ -1,0 +1,20 @@
+# Node and related ecosystem
+# ==========================
+npm-debug.log
+/node_modules
+.DS_Store
+protractor_test/test/reports
+
+# Sublime editor
+# ==============
+.sublime-project
+*.sublime-project
+*.sublime-workspace
+
+*.pyc
+*.coverage
+*.pydevproject
+*.project
+**nosetests.xml
+**nosetests.html
+.settings
