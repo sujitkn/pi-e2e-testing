@@ -15,7 +15,9 @@ npm i protractor --save-dev
 
 We are going to set it up as local dev dependency. Once the setup is done, I recommend you checking out the installation at node_modules/protractor.
 
-npm install to install the project dependancies
+to install the project dependancies
+
+npm install 
 
 This folder consists of all the things you would need to run E2E tests. Do notice the protractor/bin folder, this consists of a webdriver-manager (– a simple wrapper to manage selenium) and the protractor task itself.
 
